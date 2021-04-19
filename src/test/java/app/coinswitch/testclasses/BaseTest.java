@@ -28,9 +28,9 @@ public class BaseTest {
 	  public void setUp() throws MalformedURLException {
 	    DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 	    desiredCapabilities.setCapability("platformName", "Android");
-	    desiredCapabilities.setCapability("deviceName", "GalaxyA30");
+	    desiredCapabilities.setCapability("deviceName", "<Add deviceName here>");
 	    desiredCapabilities.setCapability("automationName", "UiAutomator2");
-	    desiredCapabilities.setCapability("udid", "RZ8M323371J");
+	    desiredCapabilities.setCapability("udid", "<Add UDID here");
 	    desiredCapabilities.setCapability("appPackage", "com.coinswitch.kuber");
 	    desiredCapabilities.setCapability("appActivity", "com.coinswitch.kuber.MainActivity");
 	    desiredCapabilities.setCapability("ensureWebviewsHavePages", true);
